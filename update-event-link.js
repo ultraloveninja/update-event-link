@@ -11,7 +11,7 @@ function eventScript() {
         return this.replaceWith(
           '<a class="non-default-link btn btn-primary btn-primary-undefined btn-undefined-theme btn-reset" href="' +
             settings.url +
-            '" target="_blank">Register Here</a>'
+            '" target="_blank">Register</a>'
         );
       };
       $.noConflict();
