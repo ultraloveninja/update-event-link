@@ -6,11 +6,12 @@ Comes in two parts; the main script and then the other part to embed to change t
 
 To start, add the jsdelivr URL:
 
-`https://cdn.jsdelivr.net/gh/ultraloveninja/update-event-link@main/update-event-link.js`
+`<script src="https://cdn.jsdelivr.net/gh/ultraloveninja/update-event-link@main/update-event-link.js"></script>`
 
 then add the script:
 
 ```
+<script>
 function initScripts() {
   if (typeof jQuery != "undefined") {
     jQuery(document).ready(function ($) {
@@ -26,6 +27,7 @@ function initScripts() {
   }
 }
 window.onload = initScripts();
+</script>
 ```
 
 replace `YOUR NEW URL HERE` with the URL that you want to add/replace.
