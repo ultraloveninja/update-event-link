@@ -9,7 +9,7 @@ function eventScript() {
           options
         );
         return this.replaceWith(
-          '<a class="non-default-link btn btn-primary btn-primary-undefined btn-undefined-theme btn-reset" href="' +
+          '<a style="display:inline-block;" class="non-default-link btn btn-primary btn-primary-undefined btn-undefined-theme btn-reset" href="' +
             settings.url +
             '" target="_blank">Register</a>'
         );
