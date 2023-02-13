@@ -10,7 +10,23 @@ To start, add the jsdelivr URL:
 
 then add the script:
 
-[SCRIPT]
+```
+function initScripts() {
+  if (typeof jQuery != "undefined") {
+    jQuery(document).ready(function ($) {
+      $(".jYfoBK .btn-wrapper").eventLink({
+        url: "YOUR NEW URL HERE"
+      });
+      $.noConflict();
+    });
+  } else {
+    setTimeout(function () {
+      initScripts();
+    }, 950);
+  }
+}
+window.onload = initScripts();
+```
 
 replace `YOUR NEW URL HERE` with the URL that you want to add/replace.
 
