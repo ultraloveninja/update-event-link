@@ -2,7 +2,7 @@ function initScripts() {
   if (typeof jQuery != "undefined") {
     jQuery(document).ready(function ($) {
       $(".jYfoBK .btn-wrapper").eventLink({
-        url: "ADD LINK HERE"
+        url: "YOUR NEW URL HERE"
       });
       $.noConflict();
     });
