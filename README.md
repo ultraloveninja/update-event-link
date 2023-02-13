@@ -1,4 +1,4 @@
-#Update Event Link
+# Update Event Link
 
 This is a simple jQuery plugin that allows to udpdate the event link and replaces the button on an event page.
 
