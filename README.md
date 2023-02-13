@@ -6,7 +6,7 @@ Comes in two parts; the main script and then the other part to embed to change t
 
 To start, add the jsdelivr URL:
 
-[URL]
+`https://cdn.jsdelivr.net/gh/ultraloveninja/update-event-link@main/update-event-link.js`
 
 then add the script:
 
