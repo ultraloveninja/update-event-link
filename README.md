@@ -1,6 +1,6 @@
 # Update Event Link
 
-This is a simple jQuery plugin that allows to udpdate the event link and replaces the button on an event page.
+This is a simple jQuery plugin that replaces an element with a custom link.
 
 Comes in two parts; the main script and then the other part to embed to change the link on window load.
 
